@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://nkyavuz.github.io/fragmentology/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "KSRL Fragmentology",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://bf14d943-8278-4449-acf2-adb041cbed12",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b458490c-79d2-42d4-967a-81361511185d",
+      "@type" : "sc:Canvas",
+      "label" : "MS E282",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://06357ad2-2fb9-47d8-ae31-17f3ef3bba13",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/ksrl-fragmentology$IMG_4465.jpeg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/ksrl-fragmentology$IMG_4465.jpeg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://b458490c-79d2-42d4-967a-81361511185d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d44cbaee-97fc-4d44-84ae-a9d622470c82",
+      "@type" : "sc:Canvas",
+      "label" : "MS C278",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0e07715b-2799-4027-8bc1-5d99ef5fc372",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/ksrl-fragmentology$IMG_4780.JPG/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/ksrl-fragmentology$IMG_4780.JPG",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://d44cbaee-97fc-4d44-84ae-a9d622470c82"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
