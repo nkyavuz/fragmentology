@@ -1,0 +1,13 @@
+{
+  "id" : "https://nkyavuz.github.io/fragmentology/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in nkyavuz/fragmentology project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://nkyavuz.github.io/fragmentology/manifests/manifest.json",
+    "label" : "KSRL Fragmentology"
+  } ]
+}
